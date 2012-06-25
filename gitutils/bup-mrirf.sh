@@ -2,7 +2,7 @@
 
 # backup mrirf working directory
 TIMESTAMP=`date +%Y%m%d.%H%M`
-srcDir=/home/itrxe01/workspace/gitsvn/irf
+srcDir=/tmp/backupDir
 devWebName='mrirf-'$TIMESTAMP'.git'
 destDir=/home/itrxe01/archives/
 #/home/itrxe01/workspace/attic/
