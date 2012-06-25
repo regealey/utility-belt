@@ -1,5 +1,8 @@
 #!/bin/bash
-vobs=/mnt/dvd/VIDEO_TS/
+#converts a iso to vob
+# extracts the largsest filesets > 1G
+DVD=/mnt/dvd
+vobs=$DVD/VIDEO_TS/
 for isofn in *.iso
 do
 echo "starting " $isofn
