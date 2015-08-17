@@ -1,0 +1,10 @@
+# my javarc config
+
+export ANT_HOME=/opt/ant
+export ANDROID_HOME=/opt/android
+export MAVEN_HOME=~/workspace/sdks/maven
+#export JAVA_HOME=/usr/lib/jvm/java-6-oracle/
+export JAVA_HOME=/usr/lib/jvm/java-7-oracle
+#export PATH=$PATH:$MAVEN_HOME/bin:$SPRINGROO/bin:~/bin:$ANDROID_STUDIO/bin
+
+PATH="$PATH:$JAVA_HOME/bin:$MAVEN_HOME/bin:$ANT_HOME/bin:$ANDROID_HOME"
