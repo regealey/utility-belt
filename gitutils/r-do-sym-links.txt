@@ -1,0 +1,2 @@
+echo "WD=`pwd`" > do-symlinks.txt
+git svn show-externals | awk '/^\// {print "ln -s $WD/.git_externals"$1 " $WD"$1 }' >> do-symlinks.txt
